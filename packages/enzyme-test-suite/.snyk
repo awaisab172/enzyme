@@ -1,0 +1,12 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - enzyme > cheerio > lodash:
+        patched: '2020-04-30T23:45:49.570Z'
+    - enzyme-adapter-react-helper > install-peerdeps > request-promise-native > request-promise-core > lodash:
+        patched: '2020-04-30T23:45:49.570Z'
+    - sinon > nise > @sinonjs/formatio > @sinonjs/samsam > lodash:
+        patched: '2020-04-30T23:45:49.570Z'
