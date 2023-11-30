@@ -62,7 +62,7 @@
     "npm-run": "^5.0.1",
     "object.assign": "^4.1.0",
     "object.getownpropertydescriptors": "^2.0.3",
-    "rimraf": "^2.6.3",
+    "rimraf": "^4.0.0",
     "semver": "^5.7.0"
   }
 }
